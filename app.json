@@ -1,0 +1,10 @@
+{
+    "name": "Salesforce External Service",
+    "description": "A simple tool to build a swagger 2.0 descriptor from a Slack webhook that can be used for Salesforce External Services",
+    "repository": "",
+    "logo": "",
+    "keywords": ["node", "express", "heroku", "salesforce"],
+    "image": "heroku/nodejs",
+    "env" :{
+    }
+  }

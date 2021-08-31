@@ -1,0 +1,17 @@
+{ "swagger": "2.0","host": "hooks.slack.com", "basePath": "/workflows",
+  "paths": {
+    "/T01G0063H29/A02CNS7MQAF/370072727689638532/OsS3qCW5TIn6ECnMTy2nvUcQ": {
+      "post": {
+        "operationId": "sendToSlack",
+        "description": "Sends json to a Slack Webhook",
+        "consumes": ["application/json"],
+        "parameters": [{
+            "in": "body",
+            "name": "message",
+            "required": true,
+            "schema": {"$ref": "#/definitions/JsonString"}
+          }],
+        "responses": { "200": {"description": "Message Received"} }
+      }
+    }
+  },"definitions": {"JsonString": {"type": "string"} } }
